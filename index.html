@@ -1,35 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8" />
-<title>Illia's Portfolio</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<style>
-
-</style>
+  <meta charset="UTF-8">
+  <title>CV - Ocat</title>
+  <meta name="description" content="simple CV example created with HTML and CSS">
+  <meta name="author" content="Fly Nerd">
+  <link rel="icon" href="./img/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-    
-    	<!--1. <div id=”wrapper”> — wrapper (оболочка), в нём располагаются другие блоки.
-//2. <div id=”header”> – header (голова), так называется область в которой расположена шапка сайта.
-//3. <div id=”sidebar”> – sidebar (боковая панель), область в которой обычно распложено вертикальное меню и виджеты (календарь и т.д.)
-//4. <div id=”content”> – content (содержание), область в которой расположено содержание сайта.
-//5.<div id=”footer”> – footer (нижний колонтитул), или подвал, область в самом низу страницы.-->
-
-    <div id="wrapper"> Оболочка
-        <div id="header">
-        	<h1>Portfolio</h1>
-        </div> Шапка
-        <div id="sidebar"></div> Сайдбар
-        <div id="content">    <h1>Hello, world</h1>
-<p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    <button onclick="fetchMessage()">Fetch Message</button>
-    <p id="message">Click on the button to fetch the message.</p></div> Контент
-        <div id="footer"></div> Подвал
+  <header>
+    <div>
+      <img src="./img/avatar.jpg" />
     </div>
+    <h1>Ocat Verdigris</h1>
+    <section>
+      <p>Hello! I am Illia, 30 years old, fluent English speaker, native Russian and Ukrainian speaker. I have Bachelor's and Master’s degree in Applied Linguistics. My Bachelor's degree diploma is translated and legalized according to UAE standards.</p>
+      <a href="https://www.facebook.com/illia/" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.twitter.com/illia/" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://illia-g.github.io/" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>
+      <a href="https://www.instagram.com/illia/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="http://www.linkedin.com/in/illia-gerasymenko-614747a3" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </section>
+  </header>
+  <main>
+    <section>
+      <h3>Courses & Workshops</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4>Udacity: Intro to HTML and CSS</h4>
+        </div>
+        <div class="descrition">
+          <p>Build styled, well-structured websites. Learn how to use HTML5 standard to create websites. Understand CSS syntax, selectors, and units. Learn about code editors and a browser's Developer Tools.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Udemy: The Web Developer Bootcamp</h4>
+        </div>
+        <div class="descrition">
+          <p>Learn how to create full-stack web applications from scratch using HTML, CSS, JavaScript, jQuery, VanillaJS, NodeJS, MongoDB.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>EdX: Web Programming with JavaScript</h4>
+        </div>
+        <div class="descrition">
+          <p>Learn how to create web apps and prototypes with JavaScript, represent and exchange data using JavaScript Object Notation (JSON), and how to access RESTful APIs on the web.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Django Girls: 2-Day Workshops</h4>
+        </div>
+        <div class="descrition">
+          <p>Learn back-end development with simple blog application using Django  framework.</p>
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Skills</h3>
+      <div class='skills'>
+        <div class='column'>
+          <h4>Good knowledge</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript ES5/6</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class='column'>
+          <h4>Basic knowledge</h4>
+          <ul>
+ <li>Social Media Experience including but not limited to Facebook, Vkontakte, YouTube, Google+, LinkedIn, Twitter, Instagram, Pinterest, and more.</li> 
+ <li>Knowledge of social media and analytics software (Google Analytics, AdSense, Adwords, Yandex.Metrica, Facebook Insights, etc.).</li> 
+ <li>Linux server administration (Apache, MySQL, postfix), WordPress websites administration (configuration, securing, optimization), DNS and SSL experience.</li>
+ <li>Knowledge of social media paid advertising campaigns including Facebook, LinkedIn and Twitter. </li>
+ <li>Proficiency in HTML and CSS, intermediate JavaScript and PHP skills.</li>
+ <li>Work experience with automated testing tools and JIRA.</li>
+
+          </ul>
+        </div>
+        <div>
+          <h4>Languages</h4>
+          <p>ua Ukrainian - Native speaker</p>
+          <p>🇬🇧 English - Proficient C1/C2</p>
+          <p>🇷u Russian - Native speaker C1</p>
+          <p>🇩🇪 German - Elementary / Communicative - A2</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <article>
+        <div class='school'>
+          <span>2006-2010</span> <strong>Eastern European National University, 2010</strong>
+        </div>
+        <div class="descrition">
+          Bechelors Degree of Applied Linguistics
+        </div>
+      </article>
+      <article>
+        <div class='school'>
+          <span>2010-2011</span> <strong>Kiev National Linguistic University</strong>
+        </div>
+        <div>
+          Master of Applied Linguistics 
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Experience</h3>
+      <article>
+        <div class='job-title'>
+          <span>03.2018 - 06.2018</span> <strong> at West Oil Group (December 2010 - August 2014)</strong><br> <strong>Position:</strong> Database Administrator/IT Support Specialist
+        </div>
+        <div>
+          <p><strong>Tech stack:</strong> 1C ERP / MySQL / InnoDB / RAdmin</p>
+          <ul class="job-description">         
+<li>Database design and development.</li>
+<li>Keeping databases up to date.</li>
+<li>Managing database access policies. </li>
+<li>Designing maintenance procedures and putting them into operation. </li>
+<li>Liaising with programmers, applications/operational staff, IT project managers and other technical staff. </li>
+<li>Managing database security/integrity and backup procedures. </li>
+<li>Writing reports, documentation and operating manuals. </li>
+<li>Testing and modifying databases to ensure that they operate reliably. </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Created by: <a href="https://illia-g.github.io/illia.github.io/">@illia</a>  / <a href="http://www.linkedin.com/in/illia-gerasymenko-614747a3">LinkedIn</a> / 2020 </p>
+  </footer>
 </body>
-
 </html>
-
-
